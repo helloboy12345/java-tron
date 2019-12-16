@@ -1073,7 +1073,7 @@ public class Manager {
   /**
    * save a block.
    */
-  public synchronized void  pushBlock(final BlockCapsule block)
+  public synchronized void pushBlock(final BlockCapsule block)
       throws ValidateSignatureException, ContractValidateException, ContractExeException,
       UnLinkedBlockException, ValidateScheduleException, AccountResourceInsufficientException,
       TaposException, TooBigTransactionException, TooBigTransactionResultException,
